@@ -2,70 +2,27 @@
 
 namespace Makeable\Youtube\Tests;
 
-use Makeable\Youtube\YoutubeClient;
 use Makeable\Youtube\YoutubeUser;
-use Google_Service_YouTube;
 
 class YoutubeClientTest extends TestCase
 {
-    public function GetUserFromToken()
-    {
-        $credentials = 'application-credentials.json';
-        // As singleton
-        $client = new YoutubeClient($credentials, 'Yo Hype test'); // (keyFile, appName = null config(app.name)
 
-        $token = [
-          "access_token"=> "ya29.GlvbBKsvhnArbRmw4kBydbkYFnGRK3QTZAfPHXAkTzNH_pEEIA8whFEVEhaoXBMJ6R-74PL9wFRvCHG4JBIZgDTF57sJs_DXtHFFTVE7bluoU0xgTN-M66eEVRAJ",
-          "token_type"=> "Bearer",
-          //"expires_in"=> 3588,
-          //"created"=> 1507210143
-        ];
-
-        $client->client->setAccessToken(
-          $token
-        );
-
-        $service = new Google_Service_YouTube($client->client);
-
-        $response = $service->channels->listChannels(
-          'snippet,statistics',
-          array(
-            'mine' => true,
-          )
-        );
-
-
-        foreach ($response['items'] as $channel) {
-            $channelClean['id'] = $channel['id'];
-            $channelClean['title'] = $channel['snippet']['title'];
-            $channelClean['viewcount'] = $channel['statistics']['viewCount'];
-            $channelClean['subcount'] = $channel['statistics']['subscriberCount'];
-            $channelClean['videocount'] = $channel['statistics']['videoCount'];
-            $channels[] = $channelClean;
-        }
-
-        var_dump($channels);
-    }
-
-    public function testFoo()
+    public function testGetSubscribers()
     {
         $token = [
-          "access_token"=> "ya29.GlvbBKsvhnArbRmw4kBydbkYFnGRK3QTZAfPHXAkTzNH_pEEIA8whFEVEhaoXBMJ6R-74PL9wFRvCHG4JBIZgDTF57sJs_DXtHFFTVE7bluoU0xgTN-M66eEVRAJ",
-          "token_type"=> "Bearer",
-          "expires_in"=> 3588,
-          "created"=> 1507210143
+          "access_token" => "ya29.GlvcBM8fq9Gm0ykIdj4CSY7Ki7PZ8BF4SPiBjSE8wCwfdUYFkS4-LoLEXZ9G5UTKQnvGh1zlsV0eMDILZFXF4Kfgc-2aWOllIxxQLgwZfTKSDt_uJFA_stEFznxu",
+          "token_type" => "Bearer",
+          "expires_in" => 3588,
+          "created" => 1507210143
         ];
 
-        $user = YoutubeUser::find($token); // app(YoutubeTClient::class)
+        $user = YoutubeUser::find($token);
+        $channels = $user->getChannels();
 
-        dd($user);
-
-
-
-//        $channels = $user->getChannels(); // collection ?
-//        $channels->count(); //
-//        $channels // Illuminate Collection
-//          ->first() // YoutubeChannel
-//          ->getSubscribers(); // int
+        $this->assertEquals(
+          9,
+          $channels
+            ->first()
+            ->getSubscribers());
     }
 }

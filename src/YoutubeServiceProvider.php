@@ -1,13 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: troels
- * Date: 06/10/2017
- * Time: 08.09
- */
 
 namespace Makeable\Youtube;
 
+use Google_Client;
 use Illuminate\Support\ServiceProvider;
 
 class YoutubeServiceProvider extends ServiceProvider
@@ -19,7 +14,6 @@ class YoutubeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        $this->publishes(array(__DIR__ . '/config/youtube.php' => config_path('youtube.php')));
     }
 
     /**
@@ -30,12 +24,11 @@ class YoutubeServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(YoutubeClient::class, function () {
-            return new YoutubeClient(config('services.google.credentials_file'));
+            return tap(new Google_Client, function ($client) {
+                $client->setApplicationName(config('app.name'));
+                $client->setAuthConfig(config('services.google.credentials_file'));
+            });
         });
-
-//        $this->app->bind('youtube', function () {
-//            return new Youtube(config('youtube.key'));
-//        });
     }
 
     /**

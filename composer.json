@@ -1,6 +1,5 @@
 {
   "name": "makeabledk/youtube",
-  "type": "composer-plugin",
   "description": "Fetch data from a users youtube channel(s)",
   "license": "CC0-1.0",
   "authors": [
