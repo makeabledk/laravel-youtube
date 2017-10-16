@@ -23,7 +23,7 @@ class YoutubeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(YoutubeClient::class, function () {
+        $this->app->bind(YoutubeClient::class, function () {
             return tap(new Google_Client, function ($client) {
                 $client->setApplicationName(config('app.name'));
                 $client->setAuthConfig(config('services.google.credentials_file'));

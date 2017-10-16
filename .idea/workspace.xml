@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="137ad098-2477-47af-95fe-1505bc2f63b8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.env" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/quickstart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/YoutubeChannelId.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/youtube-channel-data.iml" afterPath="$PROJECT_DIR$/.idea/youtube-channel-data.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoutubeServiceProvider.php" afterPath="$PROJECT_DIR$/src/YoutubeServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/YoutubeUser.php" afterPath="$PROJECT_DIR$/src/YoutubeUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +21,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="YoutubeClient.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/YoutubeClient.php">
+      <file leaf-file-name="YoutubeUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="761">
+              <caret line="39" column="66" lean-forward="true" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+              <folding>
+                <element signature="e#120#147#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/YoutubeServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+              <folding>
+                <element signature="e#36#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/google/apiclient/src/Google/Client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2349">
+              <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoutubeChannel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -28,97 +88,8 @@
       <file leaf-file-name="YoutubeClientTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-              <folding>
-                <element signature="e#42#77#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoutubeServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/YoutubeServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google_credentials.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_credentials.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding>
-                <element signature="e#42#101#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoutubeUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -140,6 +111,9 @@
       <find>var_d</find>
       <find>$credentialsPath</find>
       <find>put</find>
+      <find>credentials_file</find>
+      <find>dd</find>
+      <find>dd(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,22 +122,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/tests/testYoutubeClient.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/application-credentials.json.js" />
-        <option value="$PROJECT_DIR$/src/YoutubeChannel.php" />
         <option value="$PROJECT_DIR$/quickstart.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/youtube.php" />
         <option value="$PROJECT_DIR$/application-credentials.json" />
-        <option value="$PROJECT_DIR$/src/YoutubeClient.php" />
-        <option value="$PROJECT_DIR$/src/YoutubeServiceProvider.php" />
-        <option value="$PROJECT_DIR$/tests/TestCase.php" />
-        <option value="$PROJECT_DIR$/src/YoutubeUser.php" />
-        <option value="$PROJECT_DIR$/tests/YoutubeClientTest.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/YoutubeClient.php" />
+        <option value="$PROJECT_DIR$/src/YoutubeChannel.php" />
+        <option value="$PROJECT_DIR$/token" />
+        <option value="$PROJECT_DIR$/tests/TestCase.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
+        <option value="$PROJECT_DIR$/tests/YoutubeClientTest.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/YoutubeServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/YoutubeUser.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,11 +150,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="698" />
+    <option name="x" value="408" />
     <option name="y" value="169" />
-    <option name="width" value="1563" />
+    <option name="width" value="2001" />
     <option name="height" value="1218" />
   </component>
   <component name="ProjectView">
@@ -195,35 +175,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="youtube-channel-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-channel-data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="youtube-channel-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-channel-data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="youtube-channel-data" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-channel-data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="composer&#9;FILE&#9;file:///Users/troels/Projects/packages/youtube/composer.json&#10;youtubcli&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeClient.php&#10;refor&#9;ACTION&#9;ReformatCode&#10;yout&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeUser.php&#10;clie&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeClient.php&#10;comment&#9;ACTION&#9;CommentByLineComment" />
+    <property name="SearchEverywhereHistoryKey" value="youtube&#9;FILE&#9;file:///Users/troels/Projects/packages/youtube/src/YoutubeUser.php&#10;reformat&#9;ACTION&#9;ReformatCode&#10;ttest&#9;FILE&#9;file:///Users/troels/Projects/packages/youtube/tests/YoutubeClientTest.php&#10;composer&#9;FILE&#9;file:///Users/troels/Projects/packages/youtube/composer.json&#10;youtubcli&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeClient.php&#10;refor&#9;ACTION&#9;ReformatCode&#10;yout&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeUser.php&#10;clie&#9;FILE&#9;file:///Users/troels/Projects/youtube-channel-data/src/YoutubeClient.php&#10;comment&#9;ACTION&#9;CommentByLineComment" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -256,25 +236,29 @@
       <option name="presentableId" value="Default" />
       <updated>1507126239547</updated>
       <workItem from="1507126240703" duration="26864000" />
-      <workItem from="1507278056364" duration="143000" />
+      <workItem from="1507278056364" duration="15277000" />
+      <workItem from="1507547249023" duration="3511000" />
+      <workItem from="1508151141623" duration="648000" />
+      <workItem from="1508153231268" duration="3932000" />
+      <workItem from="1508161496583" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27007000" />
+    <option name="totallyTimeSpent" value="53135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="698" y="169" width="1563" height="1218" extended-state="0" />
+    <frame x="408" y="169" width="2001" height="1218" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30326295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23688155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952015" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937531" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -298,6 +282,110 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/google/apiclient/src/Google/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#36#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#120#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#120#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#120#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/YoutubeClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -310,9 +398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding>
-            <element signature="e#42#77#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -320,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -329,7 +414,7 @@
         <state relative-caret-position="135">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#36#54#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -338,23 +423,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -362,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#42#101#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,7 +445,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#120#147#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -381,16 +456,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
             <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -398,6 +465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,24 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/client_secret_672096148472-ir34ncsveltl57k0n1u1kohlp28h8m15.apps.googleusercontent.com.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="86" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoutubeChannelId.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -450,114 +504,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+    <entry file="file://$PROJECT_DIR$/youtube.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="420" column="13" lean-forward="false" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="792" column="9" lean-forward="false" selection-start-line="792" selection-start-column="9" selection-end-line="792" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="129" lean-forward="false" selection-start-line="0" selection-start-column="129" selection-end-line="0" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/var-dumper/Resources/functions/dump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quickstart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+        <state relative-caret-position="78">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youtube.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="297">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google_credentials.json">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="2349">
+          <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/google/apiclient/src/Google/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="844" column="18" lean-forward="false" selection-start-line="844" selection-start-column="18" selection-end-line="844" selection-end-column="18" />
+        <state relative-caret-position="1674">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php">
+    <entry file="file://$PROJECT_DIR$/src/YoutubeChannelId.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        <state relative-caret-position="162">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeChannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="39" column="66" lean-forward="true" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding>
+            <element signature="e#120#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/YoutubeServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="181">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#36#54#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoutubeUser.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#42#101#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/YoutubeClientTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding>
-            <element signature="e#42#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/YoutubeClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
