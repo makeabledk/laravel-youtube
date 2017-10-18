@@ -30,6 +30,7 @@ class TestCase extends BaseTestCase
         $app->make(\Illuminate\Contracts\Console\Kernel::class)->bootstrap();
         $app->register(YoutubeServiceProvider::class);
 
+        config('services.google.token', file_get_contents(__DIR__.'/../token'));
         config('services.google.credentials_file', __DIR__.'/../google_credentials.json');
 
         return $app;
