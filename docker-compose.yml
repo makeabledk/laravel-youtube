@@ -1,0 +1,7 @@
+version: '2'
+services:
+  php:
+    image: khanhicetea/php7-fpm-docker
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
