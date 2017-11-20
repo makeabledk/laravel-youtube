@@ -1,9 +1,9 @@
 <?php
 
-namespace Makeable\Youtube\Tests;
+namespace Makeable\LaravelYoutube\Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Makeable\Youtube\YoutubeServiceProvider;
+use Makeable\LaravelYoutube\YoutubeServiceProvider;
 
 
 class TestCase extends BaseTestCase
@@ -30,8 +30,8 @@ class TestCase extends BaseTestCase
         $app->make(\Illuminate\Contracts\Console\Kernel::class)->bootstrap();
         $app->register(YoutubeServiceProvider::class);
 
-        config('services.google.token', file_get_contents(__DIR__.'/../token'));
-        config('services.google.credentials_file', __DIR__.'/../google_credentials.json');
+//        config('services.google.token', file_get_contents(__DIR__.'/../token'));
+//        config('services.google.credentials_file', __DIR__.'/../google_credentials.json');
 
         return $app;
     }

@@ -1,21 +1,12 @@
 <?php
 
-namespace Makeable\Youtube;
+namespace Makeable\LaravelYoutube;
 
 use Google_Client;
 use Illuminate\Support\ServiceProvider;
 
 class YoutubeServiceProvider extends ServiceProvider
 {
-    /**
-     * Bootstrap the application events.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-    }
-
     /**
      * Register the service provider.
      *
@@ -26,7 +17,10 @@ class YoutubeServiceProvider extends ServiceProvider
         $this->app->bind(YoutubeClient::class, function () {
             return tap(new Google_Client, function ($client) {
                 $client->setApplicationName(config('app.name'));
-                $client->setAuthConfig(config('services.google.credentials_file'));
+                $client->setAuthConfig([
+                    'client_id' => config('services.google.oauth_client_id'),
+                    'client_secret' => config('services.google.oauth_client_secret'),
+                ]);
             });
         });
     }

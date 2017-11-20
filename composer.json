@@ -1,5 +1,5 @@
 {
-  "name": "makeabledk/youtube",
+  "name": "makeabledk/laravel-youtube",
   "description": "Fetch data from a users youtube channel(s)",
   "license": "CC0-1.0",
   "authors": [
@@ -11,18 +11,18 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Makeable\\Youtube\\YoutubeServiceProvider"
+        "Makeable\\LaravelYoutube\\YoutubeServiceProvider"
       ]
     }
   },
   "autoload": {
     "psr-4": {
-      "Makeable\\Youtube\\": "src/"
+      "Makeable\\LaravelYoutube\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Makeable\\Youtube\\Tests\\": "tests/"
+      "Makeable\\LaravelYoutube\\Tests\\": "tests/"
     }
   },
   "require": {
