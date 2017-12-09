@@ -5,7 +5,6 @@ namespace Makeable\LaravelYoutube\Tests;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Makeable\LaravelYoutube\YoutubeServiceProvider;
 
-
 class TestCase extends BaseTestCase
 {
     public function setUp()

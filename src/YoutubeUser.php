@@ -25,7 +25,7 @@ class YoutubeUser
      */
     public static function find($refreshToken)
     {
-        $cacheKey = 'youtube_access_token_' . md5($refreshToken);
+        $cacheKey = 'youtube_access_token_'.md5($refreshToken);
 
         $user = new static;
         $user->client = app(YoutubeClient::class);
